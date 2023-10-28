@@ -30,7 +30,7 @@ watch(data.dataArray, () => {
       <DragFinish></DragFinish>
     </div>
   </main>
-  <footer></footer>
+  <Footer></Footer>
 </template>
 
 <style lang="scss" scoped>
