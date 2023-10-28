@@ -1,0 +1,38 @@
+// @use "../base/" as *;
+
+.date_icon::before {
+  content: "\f073";
+  margin-right: 8px;
+  font: var(--fa-font-solid);
+  font-size: $font-size_s;
+  color: $gray-900;
+
+  .time {
+    font-size: $font-size_s;
+    color: $gray-900;
+  }
+}
+
+.time{
+  color: $gray-900;
+}
+
+.file_icon::before {
+  width: 16px;
+  height: 16px;
+
+  content: "\f15b";
+  font: var(--fa-font-regular);
+  font-size: $font-size_s;
+  color: $gray-900;
+}
+
+.comment_icon::before{
+  width: 16px;
+  height: 16px;
+
+  content: "\f4ad";
+  font: var(--fa-font-regular);
+  font-size: $font-size_s;
+  color: $gray-900;
+}
