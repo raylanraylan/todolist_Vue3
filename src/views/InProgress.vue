@@ -28,7 +28,7 @@ watch(data.dataArray, () => {
       <DragNormal></DragNormal>
     </div>
   </main>
-  <footer></footer>
+  <Footer></Footer>
 </template>
 
 <style lang="scss" scoped>
